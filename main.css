@@ -1,0 +1,32 @@
+body{
+    background-color: #222;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+.picturs img{
+    width: 80px;
+    height: 100px;
+    margin-right: 20px;
+    border: 2px solid #DDD;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.picturs img:hover{
+    border: 2px solid #888;
+}
+.prev{
+    width: 60%;
+    height: 640px;
+    border: 2px solid #fff;
+}
+.prev img{
+    width: 100%;
+    height: 100%;
+
+}
